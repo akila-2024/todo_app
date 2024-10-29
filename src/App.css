@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #343a40;
+
+  
+  display: flex;
+  justify-content: center;
+  
+  height: 100vh;
+  
+}
+
+.todoWrapper {
+  background-color: #e9fac8;
+  background-color: #d8f5a2;
+  max-width: 500px;
+  color: #212529;
+
+  padding: 15px;
+  border-radius: 8px;
+
+
+  margin-top: 30px;
+  width: 50vw;
+}
+
+.todoForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoForm_input {
+  background-color: #f4fce3;
+  border: solid 1px #5c940d;
+  border-right: none;
+  padding: 8px;
+
+  flex-basis: 70%;
+
+  border-radius: 5px 0 0 5px;
+}
+
+.todoForm_btn {
+  background-color: #339af0;
+  background-color: #74c0fc;
+  border: solid 1px #1864ab;
+  padding: 8px;
+
+  border-radius: 0 5px 5px 0;
+}
+
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e9fac8 ;
+  border-radius: 5px;
+  padding: 3px 15px;
+  margin-top: 5px;
+  text-align: start;
+}
+
+.taskItem_taskName {
+  flex-basis: 90%;
+  /* background-color: #339af0; */
+}
+
+.taskItem_icon {
+  width: 15px;
+}
+
+.completed {
+  text-decoration: line-through;
+  background-color: #dee2e6;
+}
